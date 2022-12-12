@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  display: flex;
+
+}
+
+
+.ControlArea {
+  width: 30%;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.ViewArea {
+  width: 70%;
+  background-color: rgb(153, 0, 255);
+  height: 100vh;
+
+
+}
+
+.sectionMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 2rem;
+  width: 70%;
+  height: 40%;
+  padding: 1rem;
+
+}
+
+.inputName {
+  width: 80%;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.divSelect {
+  width: 80%;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.nameOfTitle {
+  font-size: 1.5rem;
+}
